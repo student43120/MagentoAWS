@@ -1,0 +1,15 @@
+<?xml version="1.0" ?>
+<widgets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Widget:etc/widget.xsd">
+    <widget class="GameWidget\Block\Widget\Samplewidget" id="GameWidget_samplewidget">
+        <label>Gaming shop Widget</label>
+        <description></description>
+        <parameters>
+            <parameter name="widgettitle" sort_order="10" visible="true" xsi:type="text">
+                <label>Shop Game</label>
+            </parameter>
+            <parameter name="widgetcontent" sort_order="20" visible="true" xsi:type="text">
+                <label>New Games</label>
+            </parameter>
+        </parameters>
+    </widget>
+</widgets>
