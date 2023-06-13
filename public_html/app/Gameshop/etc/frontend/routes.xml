@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:App/etc/routes.xsd">
+    <router id="standard">
+        <route frontName="test" id="test">
+            <module name="Gameshop"/>
+        </route>
+        <route frontName="Gameshop" id="Gameshop">
+            <module name="Gameshop"/>
+        </route>
+
+    </router>
+</config>
